@@ -1,0 +1,15 @@
+----------
+Este proyecto tiene el backend (Express - Node) y el frontend con React. La base de datos es con MongoDB.
+Fue creado como proyecto de React
+Lea, por favor, el archivo package.json, contiene las dependencias del proyecto
+----------
+--Desde la terminal, ejecutar
+npm run dev
+--En caso de error al iniciar el proyect de React, ejecutar las siguientes instrucciones 
+npm update
+npm cache clean --force
+npm run dev //Esta instrucción se encuentra en el archivo package.json
+--abrir el navegador y en la barra de dirección, indicar: localhost:3000
+-- En caso de no actualizar los cambios en React, ejecutar:
+npm run webpack //Esta instrucción se encuentra en el archivo package.json
+npm run dev //Esta instrucción se encuentra en el archivo package.json
